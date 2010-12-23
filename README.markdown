@@ -23,6 +23,8 @@ Notes
 
 To protect against [mass assignment exploits](http://guides.rubyonrails.org/security.html#mass-assignment), all attributes are protected by default (see `config/initializers/attr_protected.rb`). This means you _must_ use `attr_accessible` in your models if you want to use mass assignment (e.g. passing the `params` hash to `new` or `update_attributes`).
 
+Right now, I'm pointing at my fork of authlogic. This just silences some deprecation warnings in Rails 3.
+
 Author
 ------
 
