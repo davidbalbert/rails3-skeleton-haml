@@ -1,0 +1,11 @@
+= form_for @user_session do |f|
+  %ul
+    %li
+      = f.label :username
+      = f.text_field :username
+    %li
+      = f.label :password
+      = f.password_field :password
+    %li
+      = f.submit "Log in"
+%p Don't have an account? #{link_to "Sign up", new_user_path}!
